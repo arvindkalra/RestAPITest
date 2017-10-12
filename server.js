@@ -4,10 +4,11 @@
 const express = require('express');
 const app = express();
 
-const port = process.env.PORT;
+const port = 2000 || process.env.PORT;
 
 app.get('/what', function (req, res) {
-    res.send(req.query.name);
+    var obj = {name : req.query.name};
+    res.send(obj);
 });
 
 app.listen(port, function (arr) {
