@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 const port = process.env.PORT;
 
 app.post('/rohan', function (req, res) {
-    var name = req.body.id;
+    var name = req.body.name;
     var newname = name + "HIII..";
     var obj = {id : newname};
 
