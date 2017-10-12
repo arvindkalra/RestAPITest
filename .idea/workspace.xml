@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d20d6539-db74-4d73-9e9c-823f578b3e5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-    </list>
+    <list default="true" id="d20d6539-db74-4d73-9e9c-823f578b3e5e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -212,15 +210,15 @@
       <option name="presentableId" value="Default" />
       <updated>1507785639938</updated>
       <workItem from="1507785641441" duration="453000" />
-      <workItem from="1507786100729" duration="9727000" />
+      <workItem from="1507786100729" duration="10322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10180000" />
+    <option name="totallyTimeSpent" value="10775000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="-4" width="1285" height="772" extended-state="6" />
+    <frame x="81" y="-4" width="1285" height="772" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960381" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
