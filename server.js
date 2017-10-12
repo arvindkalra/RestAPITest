@@ -7,15 +7,25 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-// const port = 2000;
-const port = process.env.PORT;
+const arr = [];
 
-app.post('/rohan', function (req, res) {
+const port = 2000;
+// const port = process.env.PORT;
+
+app.post('/addNew', function (req, res) {
     var name = req.body.name;
-    var newname = name + "HIII..";
-    var obj = {id : newname};
+    var phone = req.body.phone;
+    var objtba = {
+        name : name,
+        phone : phone
+    };
+    arr.push(objtba);
 
-    res.send(obj);
+    res.send();
+});
+
+app.get('/all', function (req, res) {
+    res.send(arr);
 });
 
 app.listen(port, function (arr) {
