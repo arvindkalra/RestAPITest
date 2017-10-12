@@ -7,10 +7,11 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-const port = 2000 || process.env.PORT;
+// const port = 2000;
+const port = process.env.PORT;
 
 app.post('/rohan', function (req, res) {
-    var name = req.body.name;
+    var name = req.body.id;
     var newname = name + "HIII..";
     var obj = {id : newname};
 
