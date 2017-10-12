@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT;
 
 app.get('/what', function (req, res) {
-    var obj = {id : 12};
+    var obj = {id : req.query.name};
     res.send(obj);
 });
 
